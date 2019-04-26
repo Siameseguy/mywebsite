@@ -5,17 +5,68 @@ body {
   font-size: 16px;
   letter-spacing: 0em;
   line-height: 1.6em;
+  color: #444;
+}
+
+img {
+  width: 100%;
+}
+
+.title {
+  padding-top: 0;
+  padding-bottom: 17px;
+  padding-left: 17px;
+  padding-right: 17px;
 }
 
 .header-branding {
   padding-top: 40px;
-  color: #444;
+  font-family: $secondary-font;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: .25em;
+  line-height: 1em;
+  text-transform: uppercase;
+  color: #1a1f2d;
 
   &:hover {
     color: #444;
     text-decoration: none;
   }
 }
+
+.intro {
+  padding: 120px 40px;
+
+  h1 {
+    font-family: $secondary-font;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 44px;
+    letter-spacing: 0em;
+    line-height: 1.25em;
+    text-transform: none;
+    color: #1a1f2d;
+  }
+}
+
+.resume {
+  padding: 120px 40px;
+}
+
+.testimonials {
+  padding: 120px 40px;
+}
+
+.portfolio {
+  padding: 120px 40px;
+}
+
+.contact {
+  padding: 120px 40px;
+}
+
 
 
 // font-family: 'Varela', sans-serif;
