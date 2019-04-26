@@ -1,117 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="/src/css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Varela" rel="stylesheet">
-  <title>Phanousit Syhakhom | Website</title>
-</head>
-<body>
-  <header class="header d-flex justify-content-center align-items-end">
-    <a href="/" class="header-branding text-center">Phanousit Syhakhom</a>
-  </header>
-  <section class="intro col-12 container col-md-6 offset-md-3">
-    <h1 class="text-center">Hi there! I'm a Frontend Engineer who has worked in the industry for over 4 years.</h1>
-  </section>
-  <section class="intro-image">
-    <img src="./src/img/hero.jpg">
-  </section>
-  <section class="resume">
-    <div class="row">
-      <div class="title col-xs-12 col-md-6">
-        <h2>Resume</h2>
-      </div>
-      <div class="resume-content col-xs-12 col-md-6">
-        <div class="bio">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam temporibus dolores voluptatibus inventore ut facilis nisi mollitia esse. Repellendus, animi vitae culpa ipsum eveniet recusandae laboriosam explicabo voluptatem libero non.</p>
-        </div>
-        <div class="resume-section">
-          <h4>Experience</h4>
-          <div class="row">
-            <div class="col-12">
-              <div class="d-flex justify-content-apart align-items-center">
-                <p>Frontend Engineer</p>
-                <p>November 2018 - Present</p>
-              </div>
-              <p><b>TopView NYC</b></p>
-              <p>Build new features for company websites from conception to deployment, with a responsive mobile-first approach.</p>
-              <p>tenure</p>
-            </div>
-            
-          </div>
-        </div><!-- resume section -->
-        <div class="resume-section">
-          <h4>Education</h4>
-          <div class="row">
-            <div class="col-6">
-              <p>Job Title</p>
-              <p>job stuff</p>
-              <p>tenure</p>
-            </div>
-            <div class="col-6">
-              <p>Job Title</p>
-              <p>job stuff</p>
-              <p>tenure</p>
-            </div>
-            <div class="col-6">
-              <p>Job Title</p>
-              <p>job stuff</p>
-              <p>tenure</p>
-            </div>
-          </div>
-        </div><!-- resume section -->
-        <div class="resume-section">
-            <h4>Skills</h4>
-            <div class="row">
-                <div class="col-6">
-                  <p>skill 1</p>
-                  <p>skill 2</p>
-                  <p>skill 3</p>
-                </div>
-                <div class="col-6">
-                  <p>skill 1</p>
-                  <p>skill 2</p>
-                  <p>skill 3</p>
-                </div>
-                <div class="col-6">
-                  <p>skill 1</p>
-                  <p>skill 2</p>
-                  <p>skill 3</p>
-                </div>
-              </div>
-          </div><!-- resume section -->
-      </div>
-    </div>
-  </section>
-  <section class="testimonials">
-    <div class="row">
-        <div class="title col-xs-12 col-md-6">
-          <h2>Testimonials</h2>
-        </div>
-    </div>
-  </section>
-  <section class="portfolio">
-    <div class="row">
-        <div class="title col-xs-12 col-md-6">
-          <h2>Portfolio</h2>
-        </div>
-    </div>
-  </section>
-  <section class="contact">
-      <div class="row">
-          <div class="title col-xs-12 col-md-6">
-            <h2>Contact</h2>
-          </div>
-      </div>
-  </section>
-
-
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="/src/css/styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Varela"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Crimson+Text:400i"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="/src/font-awesome/css/font-awesome.min.css" />
+		<title>Phanousit Syhakhom | Website</title>
+	</head>
+	<body>
+		<header class="header d-flex justify-content-center align-items-end">
+			<a href="/" class="header-branding text-center">Phanousit Syhakhom</a>
+		</header>
+		<section class="intro col-12 container col-md-6 offset-md-3">
+			<h1 class="text-center">
+				Hi there! I'm a Frontend Engineer who has worked in the industry for
+				over 4 years.
+			</h1>
+		</section>
+		<section class="intro-image">
+			<img src="./src/img/hero.jpg" />
+		</section>
+		<section class="resume">
+			<div class="row">
+				<div class="title col-xs-12 col-md-6">
+					<h2>Resume</h2>
+				</div>
+				<div class="resume-content col-xs-12 col-md-6">
+					<div class="bio mb-5">
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
+							temporibus dolores voluptatibus inventore ut facilis nisi mollitia
+							esse. Repellendus, animi vitae culpa ipsum eveniet recusandae
+							laboriosam explicabo voluptatem libero non.
+						</p>
+					</div>
+					<div class="resume-section">
+						<h4>Experience</h4>
+						<hr />
+						<div class="row">
+							<div class="col-12 mb-5">
+								<p><b>TopView NYC</b></p>
+								<div class="d-flex justify-content-between align-items-center">
+									<p>Frontend Engineer</p>
+									<p>November 2018 - Present</p>
+								</div>
+								<ul>
+									<li>
+										Build new features for company websites from conception to
+										deployment, with a responsive mobile-first approach.
+									</li>
+									<li>
+										Key member of cross-functional, Agile development team that
+										includes back-end, design, product marketing
+									</li>
+									<li>
+										Continually developing and improving features for
+										customer-facing websites, with goal of driving eCommerce
+										sales
+									</li>
+									<li>
+										Tools used: PHP, Javascript, JQuery, Laravel, Vue, Sass,
+										Bootstrap, Jira, Bootstrap, Vagrant
+									</li>
+								</ul>
+							</div>
+							<div class="col-12 mb-5">
+								<p><b>World Events Group</b></p>
+								<div class="d-flex justify-content-between align-items-center">
+									<p>Frontend Engineer</p>
+									<p>November 2014 - July 2017</p>
+								</div>
+								<ul>
+									<li>
+										Project managed multiple eCommerce websites from concept to
+										production, including coordination of internal and external
+										stakeholders, testing, code releases, and communication with
+										back-end development team
+									</li>
+									<li>
+										Created low- and high-fidelity wireframes for multiple
+										redesigns of company website and affiliated brands
+									</li>
+									<li>
+										Built responsive web applications with HTML, CSS, Bootstrap,
+										jQuery, JavaScript and Ruby on Rails
+									</li>
+									<li>
+										Updated sites with modern UI components such as event
+										sliders, interactive seating maps, geolocation APIs, and a
+										frictionless checkout experience
+									</li>
+									<li>
+										Created header, logo, email templates, and UI elements using
+										Adobe Photoshop and Illustrator
+									</li>
+								</ul>
+							</div>
+							<div class="col-12 mb-5">
+								<p><b>Charged.fm</b></p>
+								<div class="d-flex justify-content-between align-items-center">
+									<p>Frontend Engineer</p>
+									<p>April 2013 - October 2014</p>
+								</div>
+								<ul>
+									<li>
+										Created websites out from photoshop mock-ups for minor
+										league baseball teams in the north east
+									</li>
+									<li>
+										Worked in a LAMP stack, while using HTML, CSS, Sass,
+										Bootstrap, javascript/jquery in the front end
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- row -->
+					</div>
+					<!-- resume section -->
+					<div class="resume-section mb-5">
+						<h4>Education</h4>
+						<hr />
+						<div class="col-12 mb-5">
+							<p><b>Fullstack Academy of Code</b></p>
+							<div class="d-flex justify-content-between align-items-center">
+								<p>Software Engineering Immersive</p>
+								<p>Febuary 2018 - July 2018</p>
+							</div>
+							<ul>
+								<li>
+									Completed #1 rated Software Engineering Program Immersive in
+									NYC with 6% acceptance rate
+								</li>
+								<li>
+									Spent 500+ hours learning React, Express, Node.js, Sequelize,
+									PostgreSQL, Mocha, and Chai
+								</li>
+							</ul>
+						</div>
+						<div class="col-12 mb-5">
+							<p><b>New York Code &amp; Design Academy</b></p>
+							<div class="d-flex justify-content-between align-items-center">
+								<p>Web Development 101</p>
+								<p>October 2014 - December 2014</p>
+							</div>
+							<div class="d-flex justify-content-between align-items-center">
+								<p>Angular 101</p>
+								<p>May 2015 - July 2015</p>
+							</div>
+						</div>
+					</div>
+					<!-- resume section -->
+					<div class="resume-section mb-5">
+						<h4>Weapons at my Disposal</h4>
+						<hr />
+						<div class="row">
+							<div class="col-6">
+								<p>HTML</p>
+								<p>CSS</p>
+								<p>Sass</p>
+								<p>Javascript</p>
+								<p>Jquery</p>
+								<p>React</p>
+								<p>React-redux</p>
+								<p>Vue</p>
+								<p>Gulp</p>
+							</div>
+							<div class="col-6">
+								<p>PHP</p>
+								<p>PHPmyAdmin</p>
+								<p>Pgsql</p>
+								<p>Git</p>
+								<p>Bitbucket</p>
+								<p>Jira</p>
+								<p>Heroku</p>
+								<p>Express</p>
+							</div>
+						</div>
+					</div>
+					<!-- resume section -->
+				</div>
+			</div>
+		</section>
+		<section class="testimonials">
+			<div class="row">
+				<div class="title col-xs-12 col-md-6">
+					<h2>Recommendations</h2>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<blockquote class="blockquote mb-5">
+						<p class="mb-0 quotes">
+							"Phanousit and I both studied at Fullstack Academy. Phanousit is
+							passionate and always wanted dive deeper into core concepts of
+							programming. He is smart, well-prepared person, has excellent
+							thought process and problem solving skills. I really enjoyed
+							studying with Phanousit. He was one of the best contributor in our
+							class, and will be wherever he goes."
+						</p>
+						<footer class="blockquote-footer">
+							Hyun Jae Lee <cite title="Source Title">, classmate</cite>
+						</footer>
+					</blockquote>
+					<blockquote class="blockquote mb-5">
+						<p class="mb-0 quotes">
+							"Phanousit is a very strong developer and world-class problem
+							solver. During our few years working together he built several
+							sites from scratch, an API, and a fully functioning Ticket
+							Reseller's platform- all with a shoestring budget."
+						</p>
+						<footer class="blockquote-footer">
+							Deno Demartino <cite title="Source Title">, colleague</cite>
+						</footer>
+					</blockquote>
+				</div>
+			</div>
+		</section>
+		<section class="portfolio">
+			<!-- <div class="row">
+				<div class="title col-xs-12 col-md-6">
+					<h2>Portfolio</h2>
+				</div>
+			</div> -->
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-4 portfolio-item mb-3">
+						<a href=""><img src="/src/img/captain-america.jpg" alt=""/></a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 portfolio-item mb-3">
+						<a href=""><img src="/src/img/captain-america.jpg" alt=""/></a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 portfolio-item mb-3">
+						<a href=""><img src="/src/img/captain-america.jpg" alt=""/></a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 portfolio-item mb-3">
+						<a href=""><img src="/src/img/captain-america.jpg" alt=""/></a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 portfolio-item mb-3">
+						<a href=""><img src="/src/img/captain-america.jpg" alt=""/></a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4 portfolio-item mb-3">
+						<a href=""><img src="/src/img/captain-america.jpg" alt=""/></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contact">
+			<div class="row">
+				<div class="title col-xs-12 col-md-6">
+					<h2>Contact</h2>
+				</div>
+				<div class="title col-xs-12 col-md-6">
+					<ul
+						class="list-inline d-flex justify-content-around align-items-center"
+					>
+						<li class="list-item list-inline-item">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</li>
+						<li class="list-item list-inline-item">
+							<i class="fa fa-github-alt" aria-hidden="true"></i>
+						</li>
+						<li class="list-item list-inline-item">
+							<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<footer class="d-flex justify-content-center align-items-center">
+			<p>phanousit &copy; 2019</p>
+		</footer>
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
