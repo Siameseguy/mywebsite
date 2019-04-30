@@ -68,12 +68,26 @@ img {
 	background-position: center center;
 	height: 10rem;
 
+	@media only screen and (min-width: 414px) {
+		height: 20rem;
+	}
+
 	@media only screen and (min-width: 768px) {
 		height: 30rem;
 	}
 
 	@media only screen and (min-width: 992px) {
 		height: 50rem;
+	}
+}
+
+.skills {
+	padding: 120px 40px;
+	ul {
+		display: inline-block;
+		li {
+			margin-left: 1rem;
+		}
 	}
 }
 
